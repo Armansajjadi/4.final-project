@@ -1,0 +1,7 @@
+@import "Vazirmatn-font-face.css";
+
+@import "scroll.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
