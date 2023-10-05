@@ -2,12 +2,12 @@ let nav=document.querySelector("nav")
 
 document.addEventListener("scroll",function (){
     if(document.documentElement.scrollTop > 0){
-        nav.classList.remove('h-16','lg:h-20')
-        nav.classList.add('h-14','lg:h-[60px]')
+        nav.classList.remove('h-12','lg:h-20')
+        nav.classList.add('h-10','lg:h-[60px]')
     }
     else{
-        nav.classList.add('h-16','lg:h-20')
-        nav.classList.remove('h-14','lg:h-[60px]')
+        nav.classList.add('h-12','lg:h-20')
+        nav.classList.remove('h-10','lg:h-[60px]')
     }
 })
 
