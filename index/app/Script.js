@@ -54,3 +54,43 @@ function makeLight() {
     localStorage.setItem("theme", "light")
     lightC = false
 }
+
+
+scroll()
+
+
+function scroll() {
+
+    let dolmax = document.querySelector(".dolmax")
+
+    let ah = null
+
+    let b = null
+
+    let a = null
+
+    let z = null
+
+    let c = null
+
+    window.addEventListener("scroll", function () {
+
+        a = document.body.clientHeight
+
+        z = window.innerHeight
+        // console.log(z);
+
+        c = window.scrollY
+
+        ah = c / (a - z)
+
+
+        b = ah * 100
+
+        dolmax.style.width = b + "%"
+
+
+    })
+
+
+}
